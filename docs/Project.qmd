@@ -1,6 +1,7 @@
 ---
 title: "Project"
 ---
-{{< lipsum 1>}}
 
----
+This page will contain my Math 437 final project
+
+------------------------------------------------------------------------

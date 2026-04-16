@@ -1,12 +1,19 @@
 project:
   type: website
+  output-dir: docs
+  render: 
+  - index.qmd
+  - Project.qmd
 
 website:
   title: "Gigi Mordock"
   navbar:
     left:
+      - href: index.qmd
+        text: About Me
       - href: Project.qmd
         text: Project
+      
 format:
   html:
     theme: cosmo
